@@ -1,4 +1,5 @@
 #!/bin/bash
+read -p "Enter message: " commits
 git add .
-git commit -m "commits"
+git commit -m "$commits"
 git push
